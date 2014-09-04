@@ -1,8 +1,14 @@
 {
   "name": "express-simulate-errors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate middleware which simulates server errors",
   "main": "index.js",
   "author": "Jamie Hoeks <j@skeoh.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/j-/express-simulate-errors",
+  "bugs": "https://github.com/j-/express-simulate-errors/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j-/express-simulate-errors.git"
+  }
 }
