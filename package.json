@@ -1,6 +1,6 @@
 {
   "name": "express-simulate-errors",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate middleware which simulates server errors",
   "main": "index.js",
   "author": "Jamie Hoeks <j@skeoh.com>",
