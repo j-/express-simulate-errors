@@ -30,7 +30,10 @@ module.exports = function (options) {
 	if (!options) {
 		options = {};
 	}
-	var chance = options.chance || 1;
+	var chance = options.chance;
+	if (chance !== 0 && !(chance > 0)) {
+		chance = 1;
+	}
 	return function (req, res, next) {
 		var passed = pass(chance);
 		if (passed) {
